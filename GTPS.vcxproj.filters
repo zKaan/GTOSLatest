@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\http">
+      <UniqueIdentifier>{e6a1ac8d-5237-4849-be40-8f9993354cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\discord">
+      <UniqueIdentifier>{9a2d26c5-6820-4892-b9c8-a4353a91b80e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\server">
+      <UniqueIdentifier>{b2ac7b5f-7448-4da6-8e75-181b51d502d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\enet">
+      <UniqueIdentifier>{f379db0d-0db4-446a-acca-a8a6903d4e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{e760e961-d15d-4d63-a3ea-2e5135b10b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\enet">
+      <UniqueIdentifier>{1f56f4b3-e667-4af3-bf5e-161f85e9e258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\http">
+      <UniqueIdentifier>{9609f1dc-6d9d-4cc5-9460-8d5d75245888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bot">
+      <UniqueIdentifier>{363f6056-81a4-4798-bcf8-7ccb81dfdd94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="http.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="sandbird\sandbird.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="discord.h">
+      <Filter>Header Files\discord</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Core_functions.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\http</Filter>
+    </ClInclude>
+    <ClInclude Include="Reverse_proxy.h">
+      <Filter>Header Files\bot</Filter>
+    </ClInclude>
+    <ClInclude Include="save_system.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\callbacks.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\list.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\protocol.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\time.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\types.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\unix.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\utility.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\win32.h">
+      <Filter>Header Files\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="trade_system.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_webhook.h">
+      <Filter>Header Files\server</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sandbird\sandbird.c">
+      <Filter>Header Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="http.cpp">
+      <Filter>Source Files\http</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\compress.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\host.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>Source Files\enet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="app\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GTPS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
